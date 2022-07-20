@@ -2,7 +2,7 @@
 
 Adds titles to Markdown images. The title text is taken from the alt text of the image.
 
-Normally, the syntax for adding images in Markdown is like this:
+The basic syntax for adding images in Markdown is like this:
 
 ```
 ![Alt text](assets/images/my-image.png "My title")
@@ -33,8 +33,7 @@ pip install markdown-image-titles
 ``` python
 md = markdown.Markdown(
     extensions=[
-        'image_titles',
-        'attr_list' # optional
+        'image_titles'
     ]
 )
 ```
