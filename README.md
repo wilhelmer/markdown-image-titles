@@ -10,7 +10,9 @@ Normally, the syntax for adding images in Markdown is like this:
 
 However, entering both the alt text and the title can be cumbersome.
 
-With this extension, if no title is given, the alt text will automatically used as the title:
+With this extension, if no title is given, the alt text will automatically used as the title. 
+
+## Example
 
 ```
 ![Image description](assets/images/my-image.png)
